@@ -1,4 +1,4 @@
-# Czasopisma przez proxy PRz:
+# Czasopisma przez proxy PRz bez niedogodności:
 Wygodny dostęp do wydawnictw udostępnianych przez PRz na przeglądarkach opartych na Chromium (Chrome/Chromium/Opera/Vivaldi/Microsoft Edge/...).
 
 Przetestowane na: 
@@ -29,6 +29,6 @@ Przetestowane na:
  - Plik .pac podpatrzony tutaj: https://www.cyberciti.biz/faq/howto-use-auto-config-proxy-pac-file-for-specific-domain/
 
 ## TODO
- - Wykorzystać przy uruchomieniu przeglądarki parametr [-proxy-pac-url=<pac-file-url>](https://www.chromium.org/developers/design-documents/network-settings) (+ ścieżka do pliku lokalnego file://... lub zdalnego http://..)  , żeby metoda działała bezpośrednio na pliku .pac bez potrzeby instalowania Proxy Switchera
- - zmusić Vivaldi do otwierania wybranego profilu zawsze z opcją ~-proxy-pac-url=~
-
+ - Wykorzystać przy uruchomieniu przeglądarki parametr [`-proxy-pac-url=<pac-file-url>`](https://www.chromium.org/developers/design-documents/network-settings) (+ ścieżka do pliku lokalnego `file://...` lub zdalnego `http://...`)  , żeby metoda działała bezpośrednio na pliku .pac bez potrzeby instalowania Proxy Switchera
+ - zmusić Vivaldi do otwierania wybranego profilu zawsze z opcją `-proxy-pac-url=`
+ - wrzucić .pac na serwer prz, żeby uniezależnić metodę od serwerów github.
