@@ -1,11 +1,3 @@
-// based on the solution found here:
-// https://www.cyberciti.biz/faq/howto-use-auto-config-proxy-pac-file-for-specific-domain/
-
-// useful extension to chrome:
-// https://chrome.google.com/webstore/detail/proxy-switcher-and-manage/onnfghpihccifgojkpnnncpagjcdbjod/related
-
-
- 
 function FindProxyForURL(url, host) {
     // Your proxy server name and port
     var proxyserver = 'proxy.prz.edu.pl:3128';
