@@ -4,6 +4,7 @@ Wygodny dostęp do wydawnictw udostępnianych przez PRz na przeglądarkach opart
 Przetestowane na: 
 
  - Debian 10 Buster, Vivaldi 2.10
+ - Debian 10 Buster, Vivaldi 3.7
  - Windows 10, Vivaldi 3.3
 
 ## Sposób instalacji
